@@ -1,0 +1,170 @@
+/* =========================
+   CHECKOUT PAGE
+========================= */
+
+.checkout {
+  max-width: 800px;
+  margin: auto;
+  padding: 55px 20px 70px;
+  min-height: 70vh;
+}
+
+.checkout h1 {
+  text-align: center;
+  color: #4a3225;
+  letter-spacing: 2px;
+  margin-bottom: 35px;
+}
+
+/* =========================
+   CART ITEMS
+========================= */
+
+.checkout-item {
+  background: #fffaf3;
+  padding: 18px;
+  margin: 12px 0;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.checkout-item b {
+  color: #4a3225;
+}
+
+.checkout-item div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.checkout-item button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  background: #6f4e37;
+  color: white;
+  cursor: pointer;
+}
+
+.checkout-item button:hover {
+  background: #4a3225;
+}
+
+/* =========================
+   PICKUP / DELIVERY
+========================= */
+
+.checkout select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+
+  border: 1px solid #d8c6ad;
+  border-radius: 8px;
+
+  background: #fffaf3;
+  color: #4a3225;
+  font-size: 15px;
+}
+
+/* =========================
+   TOTAL
+========================= */
+
+.checkout h2 {
+  text-align: right;
+  color: #4a3225;
+  margin: 25px 0;
+}
+
+/* =========================
+   PLACE ORDER
+========================= */
+
+.place-order {
+  width: 100%;
+  padding: 13px;
+
+  border: none;
+  border-radius: 25px;
+
+  background: #6f4e37;
+  color: burlywood;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.place-order:hover {
+  background: #4a3225;
+  color: white;
+}
+
+/* =========================
+   EMPTY CART
+========================= */
+
+.empty-cart {
+  text-align: center;
+  padding: 50px;
+  background: #fffaf3;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.empty-cart p {
+  color: #7a6552;
+  margin-bottom: 20px;
+}
+
+.empty-cart a {
+  color: #6f4e37;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.empty-cart a:hover {
+  color: #4a3225;
+  text-decoration: underline;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+  .checkout {
+    padding: 40px 15px 50px;
+  }
+
+  .checkout h1 {
+    font-size: 28px;
+  }
+
+  .checkout-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkout-item div {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .checkout h2 {
+    font-size: 20px;
+  }
+
+  .empty-cart {
+    padding: 40px 20px;
+  }
+}

@@ -1,0 +1,48 @@
+.home {
+  min-height: 100vh;
+  background:
+    linear-gradient(
+      rgba(40, 25, 15, 0.45),
+      rgba(40, 25, 15, 0.45)
+    ),
+    url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1800&q=85")
+      center / cover no-repeat;
+}
+
+.hero {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  padding: 40px 8%;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  color: #fce2bc;
+  font-size: clamp(38px, 6vw, 64px);
+  margin: 0;
+}
+
+.hero p {
+  color: #fce2bc;
+  line-height: 1.7;
+  font-family: cursive;
+}
+
+.hero-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 45px;
+  border: 2px solid #fce2bc;
+  color: #fce2bc;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
+
+.hero-button:hover {
+  background: #fce2bc;
+  color: #4a3225;
+}

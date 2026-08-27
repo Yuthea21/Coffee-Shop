@@ -1,0 +1,18 @@
+.admin {
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 20px 70px;
+}
+
+.admin > h1 {
+  text-align: center;
+  color: #4a3225;
+}
+
+.admin-card {
+  background: #fffaf3;
+  padding: 25px;
+  margin: 25px 0;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
